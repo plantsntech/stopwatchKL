@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>StopWatch</title>
+<meta name="description" content="Stopwatch Project JS">
+<meta name="author" content="Kim Lopez">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<!--
+	<script>
+		window.console = window.console || function(t) {};
+		window.open = function(){ console.log('window.open is disabled.'); };
+		window.print = function(){ console.log('window.print is disabled.'); };
+		if (false) {
+		  window.ontouchstart = function(){};
+		}
+	</script>
+-->
+</head>
+
+<body>
+
+	<section class="container">
+
+		<div class="display" id="display">
+			00:00:00
+		</div>
+		<div class="btn">
+		<button id="startStop" onclick="startStop()" class="btn1">Start</button>
+		<button id="reset" onclick="reset()" class="btn3">Reset</button>
+		</div>
+		</section>
+	  
+	  <br>
+	  <br>
+	  
+	<script type="text/javascript" src='js/style.js'></script>
+
+	<script>
+		if (document.location.search.match(/type=embed/gi)) {
+		  window.parent.postMessage('resize', "*");
+		}
+	</script>
+
+</body>
+
+</html>
